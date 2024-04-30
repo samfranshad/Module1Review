@@ -12,16 +12,19 @@
             return (height * baseLength) / 2;
         }
         
-        
+      public static double RectangleAreaCalculation(double length, double width)
+        {
+            return length * width;
+        }
         
         
         
         
         static void Main(string[] args)
         {
-            double triangleArea = TriangleAreaCalculation(3, 3);
+            double rectangleArea = RectangleAreaCalculation(3, 3);
 
-            Console.WriteLine(triangleArea);
+            Console.WriteLine(rectangleArea);
 
         }
     }
