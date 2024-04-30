@@ -69,6 +69,11 @@ namespace Module1Review
                 Console.WriteLine($"The area of the square is {squareArea}");
             }
 
+            else
+            {
+                Console.WriteLine("Please run the program again and enter a shape from the list.");
+            }
+
 
 
         }
