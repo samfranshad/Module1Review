@@ -16,15 +16,20 @@
         {
             return length * width;
         }
-        
-        
+
+      public static double SquareAreaCalculation(double side)
+        {
+            return side * side;
+        }
+            
+
         
         
         static void Main(string[] args)
         {
-            double rectangleArea = RectangleAreaCalculation(3, 3);
+            double squareArea = SquareAreaCalculation(5);
 
-            Console.WriteLine(rectangleArea);
+            Console.WriteLine(squareArea);
 
         }
     }
